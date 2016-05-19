@@ -1,0 +1,54 @@
+.topnavbar .nav-wrapper,.topnavbar .navbar-header
+{background-repeat:repeat-x;filter:progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffec2121', endColorstr='#fff05050', 
+GradientType=1)}.wrapper>
+section,body{background-color:#f5f7fa}.wrapper>.aside{background-color:#3a3f51}
+.topnavbar{background-color:#fff}
+
+
+.topnavbar .navbar-header,.topnavbar .navbar-nav>.active>a,.topnavbar .navbar-nav>.active>a:focus,.topnavbar .navbar-nav>.active>a:hover,.topnavbar .navbar-nav>.open>a,.topnavbar .navbar-nav>.open>a:focus,.topnavbar .navbar-nav>.open>a:hover{background-color:transparent}
+.topnavbar .navbar-header{background-image:-webkit-linear-gradient(left,#ec2121 0,#f05050 100%);
+background-image:-o-linear-gradient(left,#ec2121 0,#f05050 100%);
+background-image:linear-gradient(to right,#ec2121 0,#f05050 100%)}
+@media only screen and (min-width:768px){.topnavbar .navbar-header{background-image:none}}
+
+
+.topnavbar .navbar-nav>.open>a,.topnavbar .navbar-nav>li>a{color:#ec2121}
+.topnavbar .navbar-nav>.open>a:focus,.topnavbar .navbar-nav>.open>a:hover,.topnavbar .navbar-nav>li>a:focus,
+.topnavbar .navbar-nav>li>a:hover{color:#9a0d0d}
+.topnavbar .navbar-nav>li>[data-toggle=navbar-search]{color:#181A1D}
+
+
+.topnavbar .nav-wrapper{background-color:#181A1D;
+background-image:-webkit-linear-gradient(left,#181A1D 0,#27A1DA 100%)
+;background-image:-o-linear-gradient(left,#181A1D 0,#27A1DA 100%)
+;background-image:linear-gradient(to right,#181A1D 0,#27A1DA 100%;
+  border-bottom: 5px solid #92CF39)
+}
+
+
+@media only screen and (min-width:768px)
+{.topnavbar{background-image:-webkit-linear-gradient(left,#181A1D 0,#27A1DA 100%);
+background-image:-o-linear-gradient(left,#181A1D 0,#27A1DA 100%);background-image:linear-gradient(to right,#181A1D 0,#27A1DA 100%);
+background-repeat:repeat-x;filter:progid: DXImageTransform.Microsoft.gradient(startColorstr='#181A1D', endColorstr='#181A1D', GradientType=1);
+  border-bottom: 5px solid #92CF39}
+.topnavbar .navbar-nav>.open>a,.topnavbar .navbar-nav>.open>a:focus,.topnavbar .navbar-nav>.open>a:hover{box-shadow:0 -3px 0 rgba(255,255,255,.5) inset}
+.topnavbar .navbar-nav>.open>a,.topnavbar .navbar-nav>li>a{color:#27A1DA;font-weight:bold;}
+.topnavbar .navbar-nav>.open>a:focus,.topnavbar .navbar-nav>.open>a:hover,.topnavbar .navbar-nav>li>a:focus,.topnavbar .navbar-nav>li>a:hover{color:#9a0d0d}}
+
+
+
+
+/*#f05050*/
+
+
+.sidebar{background-color:#3a3f51}
+.sidebar .nav-heading{color:#919da8}
+.sidebar .nav>li>.nav-item,.sidebar .nav>li>a{color:#e1e2e3}
+.sidebar .nav>li>.nav-item:focus,.sidebar .nav>li>.nav-item:hover,.sidebar .nav>li>a:focus,.sidebar .nav>li>a:hover{color:#27A1DA}
+.sidebar .nav>li>.nav-item>em,.sidebar .nav>li>a>em{color:inherits}
+.sidebar .nav>li.active,.sidebar .nav>li.active .nav,.sidebar .nav>li.active>a,.sidebar .nav>li.open,.sidebar .nav>li.open .nav,.sidebar .nav>li.open>a{background-color:#383d4e;color:#27A1DA}
+.sidebar .nav>li.active>a>em,.sidebar .nav>li.open>a>em{color:#27A1DA}
+.sidebar .nav>li.active{border-left-color:#92CF39}
+.sidebar-subnav{background-color:#3a3f51}.sidebar-subnav>.sidebar-subnav-header,.sidebar-subnav>li>.nav-item,.sidebar-subnav>li>a{color:#e1e2e3}
+.sidebar-subnav>li.active>.nav-item,.sidebar-subnav>li.active>a,.sidebar-subnav>li>.nav-item:focus,.sidebar-subnav>li>.nav-item:hover,.sidebar-subnav>li>a:focus,.sidebar-subnav>li>a:hover{color:#f05050}
+.sidebar-subnav>li.active>.nav-item:after,.sidebar-subnav>li.active>a:after{border-color:#f05050;background-color:#f05050}.offsidebar{border-left:1px solid #ccc;background-color:#fff;color:#515253}.btn-danger,.btn-danger:hover,.flex-direction-nav li a:hover,.pagination li.active a{background:#f05050!important}.btn-red,.flex-direction-nav li a,body .slider-selection{background-color:#f05050!important}.pagination li a{color:#f05050!important}.pagination li.active a{border:none;color:#fff!important}.media-box-heading,.theme-color{color:#f05050!important}.c-checkbox input[type=checkbox]:checked+span,.c-checkbox input[type=radio]:checked+span,.c-radio input[type=checkbox]:checked+span,.c-radio input[type=radio]:checked+span{border-color:#f05050!important;background-color:#f05050!important}body .slider-handle,body .slider-track{border:1px solid #f05050!important}.btn-danger,.btn-danger:hover,.c-checkbox:hover span,.c-radio:hover span,.form-control:focus{border-color:#f05050!important}.btn-danger:hover{background:#c0392b!important;}

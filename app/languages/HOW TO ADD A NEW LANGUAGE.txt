@@ -1,0 +1,5 @@
+How to add a new language:
+1. Copy and paste the 'english' folder and rename it to the name of whatever language you are adding.
+2. Copy the flag of your country from the country flags folder
+3. Paste the flag inside of the newly created language folder and rename in to icon.png
+4. Translate the words in language.php, which is inside the newly created language folder

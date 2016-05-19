@@ -1,0 +1,1 @@
+s:315:"<script type="text/javascript">function checkStatus(){var service=;var id="";var instruction=$("#instruction").html();var token="5fce637b21cb66ab77666c139e69d8d8";$.get("ajax/checkStatus.php?service="+service+"&id="+id+"&instruction="+instruction+"&token="+token,function(data){$("#result").html(data);});}</script>";

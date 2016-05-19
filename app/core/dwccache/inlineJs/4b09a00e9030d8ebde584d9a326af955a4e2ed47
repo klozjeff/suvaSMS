@@ -1,0 +1,1 @@
+s:217:"<script type="text/javascript">function changemethod(){var payment_method=$('#payment_method').val();var energy_amount=$('#energy');if(payment_method=='sms'){energy_amount.hide();}else{energy_amount.show();}}</script>";

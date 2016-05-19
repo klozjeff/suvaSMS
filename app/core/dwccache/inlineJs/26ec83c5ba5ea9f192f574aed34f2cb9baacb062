@@ -1,0 +1,1 @@
+s:370:"<script type="text/javascript">swal({title:"Welcome",text:"Before continuing, please make sure to adjust your Preferences in order to improve your dating experience.",imageUrl:"http://localhost/app/img/salute.png",confirmButtonText:"OK",confirmButtonColor:"#3a3f51",closeOnConfirm:false,closeOnCancel:false},function(){window.location.href="preferences.php";});</script>";

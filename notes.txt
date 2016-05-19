@@ -1,0 +1,12 @@
+-SuvaSMS has;
+-Create SMS campaign
+-create List/Leads/First name,Last Name, Phone No,Email,custom field one,custom field two,custom field 3,custom field 4,custom field 5
+-Associate Leads with e Campaign eg Debt Collection Campaign,Welcome Campaign,Sales Campaign
+-Schedule when to run(Weekly,Daily,Monthly,days to custom field)=Still attached to campaign
+-Check if Salesforce & other CRMs have API to pull data from using PHP 
+-Preview for Template on build up on phone,tablet,Basic Phone
+-Move Contact List to another List.Eg from Welcome List to Debt Recovery List
+
+
+
+

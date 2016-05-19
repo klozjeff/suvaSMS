@@ -1,0 +1,1 @@
+s:236:"<script type="text/javascript">function likeProfile(id){$.get("http://localhost/app/ajax/likeProfile.php?id="+id,function(data){$("#like").html(data);var current_likes=parseInt("1");$("#likes_number").text(current_likes+1);});}</script>";

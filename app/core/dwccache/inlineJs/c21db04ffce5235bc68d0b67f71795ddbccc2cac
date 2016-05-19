@@ -1,0 +1,1 @@
+s:327:"<script type="text/javascript">$(document).ready(function(){$("#closead").click(function(){$("#ads").css("display","none");});$frameheight=$(window).height()-40;$(".sourceView").css("height",$frameheight);$(window).resize(function(){$frameheight=$(window).height()-40;$(".sourceView").css("height",$frameheight);});});</script>";

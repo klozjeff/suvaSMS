@@ -1,0 +1,1 @@
+s:242:"<script type="text/javascript">function refreshChat(){var id="10";$.get("http://localhost/app/ajax/refreshChat.php?id="+id,function(data){$("#messages").html(data);});}1NS3R7N3WL1N3window.setInterval(function(){refreshChat();},1000);</script>";

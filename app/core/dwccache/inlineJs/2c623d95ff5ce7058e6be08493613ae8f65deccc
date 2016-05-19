@@ -1,0 +1,1 @@
+s:451:"<script type="text/javascript">swal({title:"Здравей",text:"Преди да продължиш, моля настрой предпочитанията си за да можем да ти показваме по-добри резултати",imageUrl:"http://localhost/app/img/salute.png",confirmButtonText:"OK",confirmButtonColor:"#3a3f51",closeOnConfirm:false,closeOnCancel:false},function(){window.location.href="preferences.php";});</script>";

@@ -1,0 +1,44 @@
+Options -MultiViews
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (?:^|/)(css|js|images)/(.+)$ /$1/$2 [NC,QSA,L]
+RewriteRule ^login/?$ login.php [NC,L]
+RewriteRule ^register/?$ register.php [NC,L]
+RewriteRule ^recover/?$ recover.php [NC,L]
+RewriteRule ^campaigns/?$ home.php [NC,L]
+RewriteRule ^new-campaign/?$ new-campaign.php [NC,L]
+RewriteRule ^campaign/([0-9]+)$ campaign.php?id=$1 [NC,L]
+RewriteRule ^campaign/([0-9]+)/([A-Za-z0-9]+)$ campaign.php?id=$1&action=$2 [NC,L]
+RewriteRule ^list/?$ list.php [NC,L]
+
+RewriteRule ^list-leads/([0-9]+)$ list_contacts.php?id=$1 [NC,L]
+RewriteRule ^list-customize/([0-9]+)$ list_fields.php?id=$1 [NC,L]
+
+RewriteRule ^templates/?$ templates.php [NC,L]
+
+RewriteRule ^template/([0-9]+)$ template.php?id=$1 [NC,L]
+RewriteRule ^chats/?$ chats.php [NC,L]
+RewriteRule ^upload/?$ upload.php [NC,L]
+RewriteRule ^upload/([0-9]+)$ upload.php?id=$1 [NC,L]
+RewriteRule ^manage-photos/?$ manage-photos.php [NC,L]
+RewriteRule ^manage-files/([0-9]+)$ manage-files.php?id=$1 [NC,L]
+RewriteRule ^my-friends/?$ my-friends.php [NC,L]
+RewriteRule ^upgrades/?$ upgrades.php [NC,L]
+RewriteRule ^profile/([0-9]+)$ profile.php?id=$1 [NC,L]
+RewriteRule ^order/([0-9]+)$ order-details.php?id=$1 [NC,L]
+RewriteRule ^profile/([0-9]+)/gift$ profile.php?id=$1&gift=true [NC,L]
+RewriteRule ^gifts/([0-9]+)$ gifts.php?id=$1 [NC,L]
+RewriteRule ^friends/([0-9]+)$ friends.php?id=$1 [NC,L]
+RewriteRule ^chat/([0-9]+)$ chat.php?id=$1 [NC,L]
+RewriteRule ^page/([0-9]+)$ page.php?id=$1 [NC,L]
+RewriteRule ^settings/?$ settings.php [NC,L]
+RewriteRule ^preferences/?$ preferences.php [NC,L]
+RewriteRule ^profile-likes/?$ profile-likes.php [NC,L]
+RewriteRule ^profile-views/?$ profile-views.php [NC,L]
+RewriteRule ^hot-list/?$ hot-list.php [NC,L]
+
+RewriteRule ^process/([A-Za-z0-9]+)$ process.php?t=$1 [NC,L]
+
+</IfModule>

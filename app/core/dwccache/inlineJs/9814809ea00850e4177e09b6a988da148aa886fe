@@ -1,0 +1,1 @@
+s:306:"<script type="text/javascript">$(document).ready(function(){$("#button").toggle(function(){$(this).text('Hide Content');},function(){$(this).text('show Content');}).click(function(){$("#hidden_content").slideToggle("slow");});});$(function(){$(".bs-wizard").bs_wizard({beforeNext:before_next});});</script>";

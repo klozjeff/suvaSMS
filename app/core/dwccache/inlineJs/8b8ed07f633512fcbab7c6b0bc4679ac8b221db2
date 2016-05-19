@@ -1,0 +1,1 @@
+s:132:"<script type="text/javascript">function appendToComment(str){var message=$("#comment");message.val(message.val()+" "+str);}</script>";

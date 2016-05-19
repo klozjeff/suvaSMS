@@ -1,0 +1,1 @@
+s:240:"<script type="text/javascript">function clickHeart(id){heart=$("#heart-"+id);$.get("ajax/clickHeart.php?id="+id,function(data){$("#user-"+id).html(data);});heart.css("color","#f05050");heart.animo({animation:["tada"],duration:2});}</script>";
